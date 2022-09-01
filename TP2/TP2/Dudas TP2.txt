@@ -1,0 +1,10 @@
+Dudas TP2
+
+Tengo problema con los últimos dos puntos del TP. 
+Para hacer la función wlaking foward, la idea es que la función camine sobre los grupos de 5 del data training y me vaya devolviendo las predicciones de a tres? 
+O sea en esta línea 
+y_hat_1 = model.predict(data_train_scaled[-5:].reshape((1,-1)))
+
+yo le elijo un grupito de 5 y me da la prediccion. Ahora quiero barrer todos los grupitos de 5? sería eso?
+
+Y después con lo de la función gred search necesito un poco de ayuda, estuve googleando para ver si entendía la idea aunque sea pero encontré un montón de código complicado que no entendí jaja. 
