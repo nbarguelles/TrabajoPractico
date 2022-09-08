@@ -1,9 +1,0 @@
-Dudas Ejercicio 2 del practico 1.
-
-Primero que nada, todos los entrenamientos me dieron muy feos.
-
-1- La primera duda tiene que ver con la codificación de la categoria del target, tomé flare == 1 y no flare ==0 . Pero después está la variable Acividad solar que también hay que codificar y aquí use "high == 1" "low == -1". Me pareció menos confuso hacerlo de esa manera pero quizás no era lo más conveniente? Hay otra forma de hacer esto? 
-
-2- Para la variable vprop hay que hacer un escalamiento. Traté de guiarme de la implementación del escalador que hicimos en el TP2 pero me generaba un vector features donde juntaba las dos variables vprop y sunActivity. Improvisé y logré escalar los datos de la columna vprop nomás y que me devuelva la matriz con dos columnas que tenía originalmente. Pero no sé si eso está bien hecho, creo que si. 
-
-3- Me pasó que en varias de las corridas del modelo, no entrenó. Por ejemplo si cambio la funcion de tanh a sigmide directamente en ninguna corrida entrena ni aprende nada el modelo. Con la función tanh en algunas entrena pero la matriz de confusión y el accuracy dan muy mal y en otra ni entrena. Esto puede estar relacionado a lo planteado en la duda 1-? O esto me pasa porque tengo algún error en el código? Hay algo que pueda intentar mejorar? 
